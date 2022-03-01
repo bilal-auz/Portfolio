@@ -1,0 +1,55 @@
+.topBar {
+  width: 100%;
+  height: 70px;
+  background-color: #3e065f41;
+  position: fixed;
+  top: 0;
+  transition: all 0.3s ease-out 0s !important;
+  backdrop-filter: blur(15px) !important;
+  z-index: 2;
+
+  .wrapper {
+    height: inherit;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    // background-color: aqua;
+
+    .left {
+      // background-color: bisque;
+      display: flex;
+      align-items: center;
+
+      .itemContainer {
+        margin-right: 50px;
+
+        .navItem {
+          font-size: 18px;
+          text-decoration: none;
+          // background-color: blueviolet;
+          color: whitesmoke;
+          font-weight: bold;
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .right {
+      // background-color: rgb(33, 77, 62);
+      .itemContainer {
+        margin-right: 50px;
+
+        .navItem {
+          font-size: 18px;
+          text-decoration: none;
+          // background-color: blueviolet;
+          color: whitesmoke;
+          font-weight: bold;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
