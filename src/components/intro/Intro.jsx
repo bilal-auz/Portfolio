@@ -35,7 +35,7 @@ export default function Intro() {
             </p>
           </div>
           <div className="socialLinks">
-            <ul class="menu bg-base-100 menu-horizontal rounded-box">
+            <ul className="menu bg-base-100 menu-horizontal rounded-box">
               <li>
                 <a
                   href="https://www.linkedin.com/in/bilal-abouzid/"
@@ -89,7 +89,7 @@ export default function Intro() {
       <div className="next">
         <a href="#portfolio">
           <svg
-            class="w-6 h-6"
+            className="w-6 h-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
