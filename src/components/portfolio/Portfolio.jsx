@@ -56,7 +56,7 @@ export default function Portfolio() {
               <div className="item">
                 <img src="assets/icons/react.svg" alt="react" />
               </div>
-              <div className="item">
+              <div className="item" id="nodejs">
                 <img src="assets/icons/nodejs.svg" alt="nodejs" />
               </div>
               <div className="item">
@@ -91,6 +91,7 @@ export default function Portfolio() {
             </div>
           </div> */}
         </div>
+        <div className="lamp"></div>
       </div>
       <div className="bottom">
         <div class="grid grid-rows-1 grid-flow-col">
@@ -119,7 +120,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="skillsBoxTitle">
-              <h2>Databases/Database Management</h2>
+              <h2>Database Management</h2>
             </div>
           </div>
           <div class="skillsBox rounded-lg m-4">

@@ -35,6 +35,7 @@ export default function Works() {
 
     setProjects(newProjects);
   }, [selected]);
+
   return (
     <div className="works" id="works">
       <h1>Projects</h1>
@@ -54,7 +55,9 @@ export default function Works() {
           {currentProjects.map((p) => (
             <ProjectCard
               src={p.src}
+              // title={""}
               title={p.title}
+              // body={""}
               body={p.body}
               link={p.link}
               skills={p.skills}

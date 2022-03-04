@@ -7,7 +7,10 @@ export default class ProjectCard extends Component {
   render() {
     return (
       <div className="projectCard">
+        <div className="limp"></div>
+
         <div className="projectsSkills">
+          {/* <div className="lamp"></div> */}
           {this.props.skills.map((skill) => (
             <img src={skill} alt="" />
           ))}

@@ -100,6 +100,7 @@
           font-size: 30px;
           font-weight: 500;
           margin-left: 10px;
+          margin-left: 100px;
           text-transform: uppercase;
           color: #2e835b;
           margin-bottom: 20px;
@@ -146,12 +147,20 @@
       }
 
       .socialLinks {
-        align-self: flex-end;
-        justify-self: flex-end;
+        // align-self: flex-end;
+        // justify-self: flex-end;
         // margin-top: 15px;
-        a {
-          cursor: pointer;
-          color: #28db88;
+        align-self: flex-end;
+        li {
+          a {
+            cursor: pointer;
+            color: #28db88;
+
+            svg.credly {
+              width: 35px;
+              height: 35px;
+            }
+          }
         }
       }
     }

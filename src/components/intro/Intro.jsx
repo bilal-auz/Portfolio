@@ -61,6 +61,7 @@ export default function Intro() {
                   rel="noreferrer noopener"
                 >
                   <svg
+                    className="credly"
                     xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true"
                     role="img"
