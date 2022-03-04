@@ -110,13 +110,7 @@ export default function Portfolio() {
 
           <div class="skillsBox rounded-lg m-4">
             <div className="skillsBoxItems">
-              <div id="threeItems" className="item col-span-2">
-                <img
-                  src="assets/icons/dataModeling (2).svg"
-                  alt="data modeling"
-                />
-                <h3>Data Modeling</h3>
-              </div>
+              <div id="threeItems" className="item col-span-2"></div>
               <div className="item">
                 <img src="assets/icons/sqlserver.svg" alt="nodejs" />
               </div>

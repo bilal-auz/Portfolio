@@ -64,9 +64,9 @@ export default function Intro() {
                     xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true"
                     role="img"
+                    width="80px"
+                    height="50px"
                     id="footer-icon-name"
-                    width="2em"
-                    height="2em"
                     preserveAspectRatio="xMidYMid meet"
                     viewBox="0 0 24 24"
                   >
