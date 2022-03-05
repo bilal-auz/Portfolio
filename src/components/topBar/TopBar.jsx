@@ -5,6 +5,9 @@ export default function TopBar() {
     <div className="topBar">
       <div className="wrapper">
         <div className="left">
+          <img src="assets/auz.png" alt="" />
+        </div>
+        <div className="middle">
           <div className="itemContainer">
             <a className="navItem" href="#intro">
               Home

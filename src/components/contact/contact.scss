@@ -1,3 +1,98 @@
 .contact {
-  background-color: lightcoral;
+  // background-color: lightcoral;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .container {
+    // background-color: red;
+    display: flex;
+    flex-direction: row;
+    width: 1328.8px;
+    height: 523.112px;
+    max-width: 1328.8px;
+    max-height: 523.112px;
+
+    .left {
+      // background-color: yellow;
+      flex: 6;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      .me {
+        color: #2e835b;
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      .do {
+        // color: #3bf8a0;
+        color: #40bb81;
+
+        text-transform: capitalize;
+        font-style: italic;
+
+        // text-decoration: underline;
+        // text-decoration-color: #2e835b;
+        // text-underline-offset: 4px;
+        // text-decoration-thickness: 3px;
+        white-space: nowrap;
+      }
+      .tech {
+        // word-spacing: -5px;
+        color: rgb(175, 27, 175);
+        font-size: 1em;
+      }
+      h1 {
+        font-size: 50px;
+        text-align: center;
+        overflow: hidden;
+        // background-color: red;
+        margin-bottom: 20px;
+      }
+
+      p {
+        // height: 80%;
+        font-size: 20px;
+        // background-color: aqua;
+        overflow: hidden;
+        margin-bottom: 5px;
+      }
+      ul {
+        // list-style-type: disc;
+        padding-inline-start: 40px;
+
+        li {
+          display: flex;
+          overflow: visible;
+
+          align-items: center;
+          img {
+            width: 30px;
+            // margin: 5px;
+          }
+        }
+
+        #list-item-music {
+          img {
+            // width: 40px;
+            // margin: 5px;
+          }
+          // list-style-image: url("../../../public/assets/listBullets/boxing_gym.svg");
+        }
+      }
+    }
+
+    .right {
+      // background-color: yellowgreen;
+      flex: 4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
 }
