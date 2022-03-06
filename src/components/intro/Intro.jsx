@@ -19,20 +19,9 @@ export default function Intro() {
             <h3>
               — Backend Engineer
               <span>
-                👨‍💻 🛠 <img src="assets/database (4).svg" alt="" />
+                👨‍💻 🛠 <img src="assets/database.svg" alt="" />
               </span>
             </h3>
-          </div>
-          <div className="pAboutMe">
-            <p>
-              I'm a Senior Year <code> Computer Sceince</code> Student
-              specialized in <code>Big Data</code>
-              <br />
-              and <code>Backend</code> is my favourite field. Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Explicabo quidem, maxime
-              tenetur magnam labore neque eum doloribus architecto fugit?
-              Pariatur debitis possimu.
-            </p>
           </div>
           <div className="socialLinks">
             <ul className="menu bg-base-100 menu-horizontal rounded-box">

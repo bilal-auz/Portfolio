@@ -18,6 +18,7 @@
     // background-color: aqua;
 
     .left {
+      cursor: pointer;
       img {
         width: 108px;
         height: 39px;
@@ -41,6 +42,27 @@
           font-weight: bold;
           text-transform: capitalize;
         }
+
+        .navItem::after {
+          content: "";
+          position: relative;
+          display: block;
+          height: 5px;
+          width: 0;
+          border-radius: 16px;
+          background: #2e845c;
+          bottom: 1px;
+          z-index: -1;
+          transition: all 0.3s ease-out 0s;
+        }
+
+        .selectedNavItem::after {
+          width: 100%;
+        }
+
+        .navItem:hover::after {
+          width: 100%;
+        }
       }
     }
 
@@ -49,13 +71,20 @@
       .itemContainer {
         margin-right: 50px;
 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         .navItem {
-          font-size: 18px;
+          font-size: 21px;
           text-decoration: none;
           // background-color: blueviolet;
-          color: whitesmoke;
+
+          color: #33a778;
           font-weight: bold;
           text-transform: capitalize;
+        }
+        img {
+          width: 30px;
         }
       }
     }

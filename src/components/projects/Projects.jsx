@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import WorksList from "./WorksList";
 import projectsData from "./data";
-import "./works.scss";
+import "./projects.scss";
 
 export default function Works() {
   const [selected, setSelected] = useState("all");

@@ -1,4 +1,4 @@
-import "./contact.scss";
+import "./aboutMe.scss";
 
 export default function Contact() {
   return (

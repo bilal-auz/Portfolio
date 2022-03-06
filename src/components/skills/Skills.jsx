@@ -1,4 +1,4 @@
-import "./portfolio.scss";
+import "./skills.scss";
 export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
@@ -23,7 +23,6 @@ export default function Portfolio() {
           </div>
           <div id="me" className="skillsBox rounded-lg m-4">
             <div className="middleContainer">
-              {/* <img src="assets/icons/me.svg" alt="" /> */}
               <div className="wrapper">
                 <h2>Skillsets</h2>
                 <span>
@@ -32,25 +31,6 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          {/* <div class="skillsBox rounded-lg m-4">
-            <div className="skillsBoxTitle">
-              <h2>Web Development</h2>
-            </div>
-            <div className="skillsBoxItems">
-              <div className="item">
-                <img src="assets/icons/react.svg" alt="react" />
-              </div>
-              <div className="item">
-                <img src="assets/icons/nodejs.svg" alt="nodejs" />
-              </div>
-              <div className="item">
-                <img src="assets/icons/php.svg" alt="php" />
-              </div>
-              <div className="item">
-                <img src="assets/icons/laravel.svg" alt="laravel" />
-              </div>
-            </div>
-          </div> */}
           <div class="skillsBox rounded-lg m-4">
             <div className="skillsBoxItems">
               <div className="item">
@@ -70,26 +50,6 @@ export default function Portfolio() {
               <h2>Web Development</h2>
             </div>
           </div>
-          {/* <div class="skillsBox rounded-lg m-4">
-            <div className="skillsBoxTitle">
-              <h2>Databases/Database Management</h2>
-            </div>
-            <div className="skillsBoxItems">
-              <div id="threeItems" className="item col-span-2">
-                <img
-                  src="assets/icons/dataModeling (2).svg"
-                  alt="data modeling"
-                />
-                <h3>Data Modeling</h3>
-              </div>
-              <div className="item">
-                <img src="assets/icons/sqlserver.svg" alt="nodejs" />
-              </div>
-              <div className="item">
-                <img src="assets/icons/mongodb.svg" alt="php" />
-              </div>
-            </div>
-          </div> */}
         </div>
         <div className="lamp"></div>
       </div>
