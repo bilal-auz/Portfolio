@@ -2,6 +2,24 @@ import "./skills.scss";
 export default function Portfolio() {
   return (
     <div className="skills" id="skills">
+      <div className="next">
+        <a href="#projects">
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
+            ></path>
+          </svg>
+        </a>
+      </div>
       <script src="leader-line.min.js"></script>
       <div className="top">
         <div class="grid grid-rows-1 grid-flow-col">

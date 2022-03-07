@@ -10,12 +10,12 @@ export default function Contact() {
           </h1>
           <p>
             <span className="me">Bilal Abouzid, </span> Senior-Year
-            <span className="tech"> Computer Science </span> Student, specilzied
-            in
+            <span className="tech"> Computer Science </span> Student,
+            specialized in
             <span className="tech"> Big Data</span>.
             <br />
             <br />
-            <span className="me">My main intrest</span> is in
+            <span className="me">My main interest</span> is in
             <span className="me"> Backend Engineering</span>, where I can{" "}
             <span className="do">Design</span> and{" "}
             <span className="do">Build</span> the{" "}
@@ -26,9 +26,9 @@ export default function Contact() {
             <span className="do">fix bugs</span>.
             <br />
             <br />
-            Also,<span className="me"> I am intersterd </span> in areas related
+            Also,<span className="me"> I am interested </span> in areas related
             to Data such as <span className="tech">AI</span> and{" "}
-            <span className="tech">Big Data</span>, and thier technologies such
+            <span className="tech">Big Data</span>, and their technologies such
             as{" "}
             <span className="tech">
               Hadoop, Spark, Machine Learning, Reporting and visualization.
@@ -49,7 +49,7 @@ export default function Contact() {
             </li>
             <li id="list-item-learnTech">
               <img src="assets/listBullets/new_tech.svg" alt="" />
-              <p>Learn New Technolgies.</p>
+              <p>Learn New Technologies.</p>
             </li>
           </ul>
         </div>

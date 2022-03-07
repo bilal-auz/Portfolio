@@ -11,6 +11,17 @@
   justify-content: space-around;
   align-items: center;
 
+  .next {
+    // background-color: #2e835b;
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+    // align-self: flex-end;
+    // margin-right: 20px;
+    // display: flex;
+    // justify-content: center;
+  }
+
   .container {
     // background-color: #28db88;
     // max-width: revert;
@@ -163,15 +174,6 @@
           }
         }
       }
-    }
-  }
-
-  .next {
-    // background-color: #2e835b;
-    display: flex;
-    justify-content: center;
-
-    a {
     }
   }
 }
