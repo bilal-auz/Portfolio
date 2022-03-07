@@ -4,18 +4,21 @@ import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import AboutMe from "./components/aboutMe/AboutMe";
 import "./app.scss";
+import React from "react";
 
-function App() {
+function App(props) {
   return (
-    <div className="app">
-      <TopBar />
-      <div className="sections">
-        <Intro />
-        <Skills />
-        <Projects />
-        <AboutMe />
+    <React.Fragment>
+      <div className="app">
+        <TopBar {...props} />
+        <div className="sections">
+          <Intro />
+          <Skills />
+          <Projects />
+          <AboutMe />
+        </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 

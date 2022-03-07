@@ -2,7 +2,7 @@ import "./aboutMe.scss";
 
 export default function Contact() {
   return (
-    <div className="contact" id="contact">
+    <div className="aboutMe" id="aboutMe">
       <div className="container">
         <div className="left">
           <h1>

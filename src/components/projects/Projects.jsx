@@ -37,7 +37,7 @@ export default function Works() {
   }, [selected]);
 
   return (
-    <div className="works" id="works">
+    <div className="projects" id="projects">
       <h1>Projects</h1>
       <ul className="menu menu-horizontal bg-base-100 rounded-box">
         {list.map((item) => (

@@ -1,7 +1,7 @@
 import "./skills.scss";
 export default function Portfolio() {
   return (
-    <div className="portfolio" id="portfolio">
+    <div className="skills" id="skills">
       <script src="leader-line.min.js"></script>
       <div className="top">
         <div class="grid grid-rows-1 grid-flow-col">
