@@ -111,7 +111,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="skillsBoxTitle">
-              <h2>Other Tools I use</h2>
+              <h2>Others</h2>
             </div>
           </div>
         </div>
