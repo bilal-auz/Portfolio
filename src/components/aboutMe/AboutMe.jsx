@@ -3,12 +3,12 @@ import "./aboutMe.scss";
 export default function Contact() {
   return (
     <div className="aboutMe" id="aboutMe">
-      <div className="container">
+      <div className="container ">
         <div className="left">
-          <h1>
+          <h1 className="text-5xl text-center overflow-hidden mb-5">
             Who <span className="me">Am I</span> ?
           </h1>
-          <p>
+          <p className="text-xl overflow-hidden mb-1">
             <span className="me">Bilal Abouzid, </span> Senior-Year
             <span className="tech"> Computer Science </span> Student,
             specialized in

@@ -16,9 +16,10 @@
     // justify-content: center;
   }
   h1 {
-    color: #861f7f;
+    // color: #861f7f;
+    color: #2e835b;
     margin: 5px;
-    font-size: 50px;
+    font-size: 30px;
   }
 
   ul {
@@ -71,6 +72,34 @@
       align-content: center;
       justify-content: space-evenly;
       // padding: 15px;
+
+      .myCard {
+        // background: rgb(55,13,139);
+        background: #180d30;
+        background-image: linear-gradient(to left,rgba(24, 13, 48, 0), rgba(39, 105, 75, 0.65) 100%);
+        // background: linear-gradient(0deg, rgba(55,13,139,1) 47%, rgba(46,131,91,1) 100%);
+      }
+
+      .myStats{
+        background-color: #370d8b;
+        background-image: linear-gradient(
+          to top right,
+          rgba(17, 16, 16, 0.678),
+          rgba(12, 10, 22, 0.863)
+        );
+
+        --tw-shadow: inset -1px -1px 3px 0 rgb(0, 0, 0);
+        --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+      }
+
+      .Swipy{
+        background-color: wheat;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
 
       .projectCard {
         padding: 10px;

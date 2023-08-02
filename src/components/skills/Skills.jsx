@@ -31,9 +31,6 @@ export default function Portfolio() {
               <div className="item">
                 <img src="assets/icons/python.svg" alt="" />
               </div>
-              <div className="item col-span-2">
-                <img src="assets/icons/c.svg" alt="C" />
-              </div>
             </div>
             <div className="skillsBoxTitle">
               <h2>Programming Languages</h2>
@@ -57,10 +54,8 @@ export default function Portfolio() {
               <div className="item" id="nodejs">
                 <img src="assets/icons/nodejs.svg" alt="nodejs" />
               </div>
-              <div className="item">
-                <img src="assets/icons/php.svg" alt="php" />
-              </div>
-              <div className="item">
+
+              <div className="item col-span-2">
                 <img src="assets/icons/laravel.svg" alt="laravel" />
               </div>
             </div>

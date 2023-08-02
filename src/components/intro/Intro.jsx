@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./intro.scss";
 import { LinkedIn, GitHub, Email } from "@material-ui/icons";
 export default function Intro() {

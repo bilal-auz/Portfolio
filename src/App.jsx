@@ -6,9 +6,16 @@ import AboutMe from "./components/aboutMe/AboutMe";
 import "./app.scss";
 import React from "react";
 
+import { isMobile } from "react-device-detect";
+import NoMobile from "./Errors/NoMobile";
+
 function App(props) {
-  return (
-    <React.Fragment>
+  const renderContent = () => {
+    if (isMobile) {
+      return <NoMobile />;
+      // return <h1>Hello</h1>;
+    }
+    return (
       <div className="app">
         <TopBar {...props} />
         <div className="sections">
@@ -18,8 +25,10 @@ function App(props) {
           <AboutMe />
         </div>
       </div>
-    </React.Fragment>
-  );
+    );
+  };
+
+  return <React.Fragment>{renderContent()}</React.Fragment>;
 }
 
 export default App;

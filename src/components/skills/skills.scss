@@ -75,7 +75,7 @@
       border-left: none;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      // grid-template-rows: 1fr 1fr;
       gap: 10px;
       justify-items: center;
       grid-template-areas:
@@ -185,6 +185,8 @@
       }
       .skillsBoxItems {
         display: grid;
+        justify-items: center;
+      align-items: center;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         gap: 10px;
