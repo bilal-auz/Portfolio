@@ -3,15 +3,20 @@ import "./topBar.scss";
 import { useEffect, useState } from "react";
 
 export default function TopBar(props) {
-  const [active, setActive] = useState("1");
+  const [active, setActive] = useState("a_intro");
 
   const toHome = () => {
     window.location = "/#intro";
   };
 
   const handleClick = (event) => {
-    setActive(event.target.id);
+    // setActive(event.target.id);
+    props.setActiveSection(event.target.id);
   };
+
+  useEffect(() => {
+    console.log("HELLI:" + props.activeSection);
+  }, []);
 
   return (
     <div className="topBar">
@@ -23,8 +28,11 @@ export default function TopBar(props) {
         <div className="middle">
           <div className="itemContainer">
             <a
-              id="1"
-              className={"navItem" + (active === "1" ? " selectedNavItem" : "")}
+              id="a_intro"
+              className={
+                "navItem" +
+                (props.activeSection === "a_intro" ? " selectedNavItem" : "")
+              }
               href="#intro"
               onClick={handleClick}
             >
@@ -33,8 +41,11 @@ export default function TopBar(props) {
           </div>
           <div className="itemContainer">
             <a
-              id="2"
-              className={"navItem" + (active === "2" ? " selectedNavItem" : "")}
+              id="a_skills"
+              className={
+                "navItem" +
+                (props.activeSection === "a_skills" ? " selectedNavItem" : "")
+              }
               href="#skills"
               onClick={handleClick}
             >
@@ -43,8 +54,11 @@ export default function TopBar(props) {
           </div>
           <div className="itemContainer">
             <a
-              id="3"
-              className={"navItem" + (active === "3" ? " selectedNavItem" : "")}
+              id="a_projects"
+              className={
+                "navItem" +
+                (props.activeSection === "a_projects" ? " selectedNavItem" : "")
+              }
               href="#projects"
               onClick={handleClick}
             >
@@ -53,8 +67,11 @@ export default function TopBar(props) {
           </div>
           <div className="itemContainer">
             <a
-              id="4"
-              className={"navItem" + (active === "4" ? " selectedNavItem" : "")}
+              id="a_aboutMe"
+              className={
+                "navItem" +
+                (props.activeSection === "a_aboutMe" ? " selectedNavItem" : "")
+              }
               href="#aboutMe"
               onClick={handleClick}
             >

@@ -1,7 +1,7 @@
 import "./skills.scss";
 export default function Portfolio() {
   return (
-    <div className="skills" id="skills">
+    <div className="section skills" id="skills">
       <div className="next">
         <a href="#projects">
           <svg

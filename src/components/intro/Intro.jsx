@@ -3,7 +3,7 @@ import "./intro.scss";
 import { LinkedIn, GitHub, Email } from "@material-ui/icons";
 export default function Intro() {
   return (
-    <div className="intro" id="intro">
+    <div className="section intro" id="intro">
       <div className="next">
         <a href="#skills">
           <svg

@@ -26,7 +26,7 @@ export default function Works() {
     setProjects(newProjects);
   }, [selected]);
   return (
-    <div className="projects" id="projects">
+    <div className="section projects" id="projects">
       <div className="next">
         <a href="#aboutMe">
           <svg
