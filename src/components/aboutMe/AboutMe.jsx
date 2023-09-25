@@ -9,30 +9,37 @@ export default function Contact() {
             Who <span className="me">Am I</span> ?
           </h1>
           <p className="text-xl overflow-hidden mb-1">
-            <span className="me">Bilal Abouzid, </span> Senior-Year
-            <span className="tech"> Computer Science </span> Student,
-            specialized in
-            <span className="tech"> Big Data</span>.
+            I'm a passionate tech enthusiast with a strong interest in software
+            engineering, pursuing a Master's degree in Computer Engineering by
+            day🌅, and actively honing my skills as a Software Engineer by
+            night🌇.
             <br />
             <br />
-            <span className="me">My main interest</span> is in
-            <span className="me"> Backend Engineering</span>, where I can{" "}
+            I'm primarily focused on Backend development. I also have a solid
+            understanding of frontend technologies. I thrive on challenges and I
+            am always eager to learn and grow in the world of software
+            development.
+            {/* <span className="me">My main interest</span> is in
+            <span className="me"> Backend</span>, where I can{" "}
             <span className="do">Design</span> and{" "}
             <span className="do">Build</span> the{" "}
             <span className="do">System Structures</span> and{" "}
             <span className="do">databases</span>, Write{" "}
             <span className="do">APIs</span>,{" "}
             <span className="do">Maintain</span> and{" "}
-            <span className="do">fix bugs</span>.
+            <span className="do">fix bugs</span>. However, I */}
             <br />
             <br />
-            Also,<span className="me"> I am interested </span> in areas related
-            to Data such as <span className="tech">AI</span> and{" "}
+            Additionally, I'm deeply passionate about topics within the field of
+            AI and Natural Language Processing (NLP), as these align closely
+            with the subject matter of my master's thesis.
+            {/* <span className="me"> I am interested </span> in areas related to{" "}
+            <span className="tech">AI</span> and{" "}
             <span className="tech">Big Data</span>, and their technologies such
             as{" "}
             <span className="tech">
               Hadoop, Spark, Machine Learning, Reporting and visualization.
-            </span>
+            </span> */}
             <br />
             <br />
             Apart from <span className="tech">Coding</span>, other things
@@ -41,7 +48,7 @@ export default function Contact() {
           <ul>
             <li id="list-item-gym">
               <img src="assets/listBullets/boxing_gym.svg" alt="" />
-              <p>Boxing.</p>
+              <p>Sport.</p>
             </li>
             <li id="list-item-music">
               <img src="assets/listBullets/music.svg" alt="" />

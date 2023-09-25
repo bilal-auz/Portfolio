@@ -87,7 +87,7 @@ export default function TopBar(props) {
               href="assets/resume/Bilal-Abouzid-Backend-Engineer-Resume-2023.pdf"
               target="_blank"
             >
-              My Resume
+              Resume
             </a>
           </div>
         </div>
