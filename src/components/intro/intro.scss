@@ -95,6 +95,15 @@
           font-weight: bolder;
           color: #ffffff;
         }
+        h1 > .ColoredLetter{
+          overflow: hidden;
+          display: inline-block;
+          color:#2e845c;
+          font-family: 'Old English Five', sans-serif;
+          font-size: 45px;
+          transform: rotate(5deg);
+          vertical-align: text-top;
+        }
         h2 {
           font-style: italic;
           color: rgb(143, 142, 142);
@@ -108,12 +117,12 @@
         }
 
         h3 {
-          font-size: 30px;
+          font-size: 24px;
           font-weight: 500;
           margin-left: 10px;
-          margin-left: 100px;
+          margin-left: 70px;
           text-transform: uppercase;
-          color: #2e835b;
+          color: #2e845c;
           margin-bottom: 20px;
 
           span {
@@ -162,17 +171,51 @@
         // justify-self: flex-end;
         // margin-top: 15px;
         align-self: flex-end;
-        li {
+        div {
+          margin: 10px;
           a {
+            height: fit-content;
+            padding: 0;
             cursor: pointer;
             color: #28db88;
 
+
+            svg {
+              width: 40px;
+              height: 40px;
+              padding:0;
+              transition: color 3s ease;
+            }
             svg.credly {
-              width: 35px;
-              height: 35px;
+              width: 60px;
+              height: 60px;
             }
           }
+
+          a.linkedin{
+            svg{
+              width: 45px;
+              height: 45px;
+            }
+          }
+          a.linkedin :hover{
+            color: #0c89cc;
+            transition: color 0.2s linear;
+
+          }
+          a.github :hover{
+            color: #2858db;
+            transition: color 0.2s linear;
+
+          }
+          a.email :hover{
+            color: #2858db;
+            transition: color 0.2s linear;
+
+          }
         }
+
+        
       }
     }
   }
