@@ -86,6 +86,7 @@ export default function TopBar(props) {
               className="navItem"
               href="assets/resume/Bilal-Abouzid-Backend-Engineer-Resume-2023.pdf"
               target="_blank"
+              rel="noreferrer"
             >
               Resume
             </a>

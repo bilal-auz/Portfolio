@@ -88,6 +88,7 @@ export default function Works() {
                         className="btn btn-neutral text-[#2e835b]"
                         href={p.link}
                         target="_blank"
+                        rel="noreferrer"
                       >
                         See Project
                         {/* <img src="assets/icons/export.svg" alt="" /> */}
