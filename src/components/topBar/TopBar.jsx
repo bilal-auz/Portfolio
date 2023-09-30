@@ -89,7 +89,7 @@ export default function TopBar(props) {
               <img src="assets/resume.svg" alt="" />
               <a
                 className="navItem"
-                href="assets/resume/Bilal-Abouzid-Backend-Engineer-Resume-2023.pdf"
+                href="assets/resume/Bilal-Abouzid-Resume-2023.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
