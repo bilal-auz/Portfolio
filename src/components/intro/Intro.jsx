@@ -24,10 +24,10 @@ export default function Intro() {
         </a>
       </div>
       <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
-      <div className="container">
+      <div className="container flex flex-col lg:flex-row">
         <div className="left">
           <div className="imgContainer">
-            <img src="assets/bilal.png" alt="bilal" />
+            <img src="assets/ana/bilal.png" alt="bilal" />
           </div>
         </div>
         <div className="right">

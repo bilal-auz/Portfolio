@@ -34,8 +34,8 @@
     max-width: 1196.8px;
     // background-color: rgba(255, 255, 255, 0.1);
     // padding: 20px;
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
 
     > * {
       display: flex;
@@ -59,13 +59,13 @@
         width: 500px;
         height: 500px;
         padding: 50px;
-        background-color: #2e845c;
+        // background-color: #2e845c;
         border-radius: 50%;
         // border: 2px dotted black;
 
         img {
           height: 90%;
-          filter: grayscale(100%);
+          // filter: grayscale(100%);
           border-radius: 25px;
         }
       }
