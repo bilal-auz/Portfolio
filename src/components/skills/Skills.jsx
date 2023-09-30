@@ -23,7 +23,7 @@ export default function Portfolio() {
       <script src="leader-line.min.js"></script>
       <div className="top">
         <div class="grid grid-rows-1 grid-flow-col">
-          <div class="skillsBox rounded-lg m-4">
+          {/* <div class="skillsBox rounded-lg m-4">
             <div className="skillsBoxItems">
               <div className="item">
                 <img src="assets/icons/java.svg" alt="" />
@@ -35,7 +35,7 @@ export default function Portfolio() {
             <div className="skillsBoxTitle">
               <h2>Programming Languages</h2>
             </div>
-          </div>
+          </div> */}
           <div id="me" className="skillsBox rounded-lg m-4">
             <div className="middleContainer">
               <div className="wrapper">
@@ -46,7 +46,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div class="skillsBox rounded-lg m-4">
+          {/* <div class="skillsBox rounded-lg m-4">
             <div className="skillsBoxItems">
               <div className="item">
                 <img src="assets/icons/react.svg" alt="react" />
@@ -62,26 +62,93 @@ export default function Portfolio() {
             <div className="skillsBoxTitle">
               <h2>Web Development</h2>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="lamp"></div>
       </div>
-      <div className="bottom">
-        <div class="grid grid-rows-1 grid-flow-col">
-          <div class="skillsBox rounded-lg m-4">
-            <div className="skillsBoxItems">
-              <div className="item">
-                <img src="assets/icons/git.svg" alt="Git" />
-              </div>
-              <div className="item">
-                <img src="assets/icons/docker.svg" alt="" />
-              </div>
-            </div>
-            <div className="skillsBoxTitle">
-              <h2>Version Control & Virtualization</h2>
-            </div>
+      <div className="bottom mx-auto px-24 ">
+        <div class="grid grid-cols-8 gap-16 text-center">
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-16"
+              src="assets/icons/html.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-16"
+              src="assets/icons/css.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-16"
+              src="assets/icons/nodejs.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-25"
+              src="assets/icons/express.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-16"
+              src="assets/icons/react.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-16"
+              src="assets/icons/mongodb.svg"
+              alt="html"
+            />
           </div>
 
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-16"
+              src="assets/icons/tailwind.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-16"
+              src="assets/icons/graphql.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-16"
+              src="assets/icons/postman.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-16"
+              src="assets/icons/git.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              id="linux"
+              className="block object-contain h-16"
+              src="assets/icons/linux.svg"
+              alt="html"
+            />
+          </div>
+
+          {/* 
           <div class="skillsBox rounded-lg m-4">
             <div className="skillsBoxItems">
               <div id="threeItems" className="item col-span-2"></div>
@@ -96,6 +163,7 @@ export default function Portfolio() {
               <h2>Database Management</h2>
             </div>
           </div>
+
           <div class="skillsBox rounded-lg m-4">
             <div id="bi_tools" className="skillsBoxItems">
               <div className="item">
@@ -108,7 +176,7 @@ export default function Portfolio() {
             <div className="skillsBoxTitle">
               <h2>Others</h2>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
