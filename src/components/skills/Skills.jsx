@@ -39,7 +39,7 @@ export default function Portfolio() {
           <div id="me" className="skillsBox rounded-lg m-4">
             <div className="middleContainer">
               <div className="wrapper">
-                <h2>Skillsets</h2>
+                {/* <h2>Skillsets</h2> */}
                 <span>
                   <code>&lt;Skillsets /&gt;</code>
                 </span>
@@ -67,7 +67,7 @@ export default function Portfolio() {
         <div className="lamp"></div>
       </div>
       <div className="bottom mx-auto px-24 ">
-        <div class="grid grid-cols-8 gap-16 text-center">
+        <div class="grid grid-cols-6 gap-16 text-center">
           <div class="flex items-center justify-center">
             <img
               className="block object-contain h-16"
@@ -91,7 +91,7 @@ export default function Portfolio() {
           </div>
           <div class="flex items-center justify-center">
             <img
-              className="block object-contain h-25"
+              className="block object-contain h-[100px]"
               src="assets/icons/express.svg"
               alt="html"
             />
@@ -110,7 +110,6 @@ export default function Portfolio() {
               alt="html"
             />
           </div>
-
           <div class="flex items-center justify-center">
             <img
               className="block object-contain h-16"
@@ -120,14 +119,22 @@ export default function Portfolio() {
           </div>
           <div class="flex items-center justify-center">
             <img
-              className="block object-contain h-16"
+              className="block object-contain h-[90px]"
               src="assets/icons/graphql.svg"
               alt="html"
             />
           </div>
           <div class="flex items-center justify-center">
             <img
-              className="block object-contain h-16"
+              id="linux"
+              className="block object-contain h-[100px]"
+              src="assets/icons/mysql.svg"
+              alt="html"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              className="block object-contain h-[80px]"
               src="assets/icons/postman.svg"
               alt="html"
             />

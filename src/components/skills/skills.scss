@@ -1,6 +1,7 @@
 .skills {
   // background-color: rgb(255, 255, 255);
   display: flex;
+  justify-content: flex-start;
   position: relative;
   flex-direction: column;
 
@@ -18,8 +19,9 @@
   }
 
   .top {
-    flex: 0.5;
+    // flex: 0.2;
     overflow: hidden;
+    margin-bottom: 30px;
     // padding: 50px;
     // background-color: coral;
   }
@@ -54,7 +56,7 @@
         text-align: center;
         width: fit-content;
         border-top: 3px solid;
-        font-size: 18px;
+        font-size: 5px;
         font-weight: 500;
       }
     }
@@ -144,9 +146,11 @@
           overflow: hidden;
           border-radius: 43px;
           text-align: center;
-          font-size: 120px;
+          font-size: 80px;
 
           color: #861f7f;
+          // color: #2e835b;
+
           display: inline-block;
           font-weight: 100;
           // white-space: nowrap;
@@ -154,7 +158,10 @@
         }
         span {
           color: #2e835b;
-          font-size: 20%;
+          // color: #861f7f;
+
+          // font-size: 20%;
+          font-size: 40px;
           display: block;
         }
       }
@@ -164,7 +171,7 @@
   }
 
   .bottom {
-    flex: 0.5;
+    // flex: 0.7;
     overflow: hidden;
     position: relative;
     
@@ -187,6 +194,7 @@
         display: grid;
         justify-items: center;
       align-items: center;
+      
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         gap: 10px;
