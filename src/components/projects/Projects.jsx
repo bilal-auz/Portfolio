@@ -57,17 +57,26 @@ export default function Works() {
           />
         ))}
       </ul> */}
-      <div className="wrapper">
+      <div className="wrapper px-24">
         <div className="projectsContainer flex flex-col items-center p-8 pt-0">
           <div className="carousel w-full flex overflow-hidden">
             {currentProjects.map((p, index) => (
               <div
                 id={"item" + (index + 1)}
-                className="carousel-item px-12 overflow-hidden"
+                className="carousel-item overflow-hidden max-lg:px-12"
               >
-                <div className="myCard card lg:card-side bg-base-100 shadow-xl relative h-min-[500px] w-[1118px] h-[420px]">
-                  <div className="card-body w-fit w-[52rem] justify-end relative">
-                    <div className="myStats stats shadow shadow-inner w-fit self-center absolute top-0 left-0 rounded-none rounded-tl-2xl rounded-br-2xl bg-gradient-to-r">
+                <div className="myCard card lg:card-side bg-base-100 shadow-xl relative h-[470px] h-min-[500px] w-[1118px] lg:h-[420px]">
+                  <div className="myStats stats stats-vertical shadow shadow-inner w-fit self-center absolute top-0 left-0 rounded-none rounded-tl-2xl rounded-br-2xl p-1 bg-gradient-to-r inline-grid lg:hidden">
+                    <div className="stat flex flex-col justify-evenly w-min-fit p-2 self-center">
+                      {p.skills.map((src) => (
+                        <figure className="h-12 w-12">
+                          <img className="w-[25px]" src={src} alt="" />
+                        </figure>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="pr-[10px] pl-[20px] pb-0 pt-[15px] mb-[20px] card-body w-fit justify-end relative lg:w-[52rem]">
+                    <div className="myStats stats shadow shadow-inner w-fit self-center absolute top-0 left-0 rounded-none rounded-tl-2xl rounded-br-2xl bg-gradient-to-r hidden lg:inline-grid">
                       <div className="stat flex flex-row justify-evenly w-min-fit p-2 px-5 w-72 self-center h-20">
                         {p.skills.map((src) => (
                           <figure className="h-16 w-16">
@@ -77,7 +86,7 @@ export default function Works() {
                       </div>
                     </div>
 
-                    <h2 className="card-title text-2xl truncate">
+                    <h2 className="card-title text-2xl leading-[3rem] truncate max-md:pt-[40px] max-sm:pt-[40px]">
                       {p.title}{" "}
                       <span className="text-[0.9rem] italic">
                         {p.span && `-${p.span}-`}
@@ -85,7 +94,7 @@ export default function Works() {
                     </h2>
 
                     <p className="grow-0 text-base text-left">{p.body}</p>
-                    <div className="card-actions justify-start pt-5 items-center">
+                    <div className="card-actions justify-start pt-5 items-center h-[150px] overflow-hidden lg:h-auto">
                       <a
                         role="button"
                         className="btn btn-neutral text-[#2e835b]"
@@ -103,20 +112,24 @@ export default function Works() {
                     </div>
                   </div>
                   {/* right */}
-                  <div className="flex items-center relative h-full w-[700px]">
+                  <div className="flex items-center lg:justify-center relative h-[500px] mb-[5px] overflow-hidden pt-[10px] lg:w-[700px] lg:pt-0 lg:h-full">
                     <figure
                       className={
+                        "w-[300px] right-[0px] lg:w-[700px] " +
                         "absolute " +
                         (p.mockup === "ipad" || p.mockup === "iphone"
-                          ? "right-[-40px]"
-                          : "right-[-180px]")
+                          ? "lg:right-[-40px]"
+                          : "lg:right-[-180px]")
                       }
                     >
                       {" "}
                       <img
                         className={
-                          "w-[600px] " +
-                          (p.mockup === "iphone" ? "h-[400px]" : "h-[365px]")
+                          "lg:w-[600px] " +
+                          (p.mockup === "iphone"
+                            ? "h-[200px] lg:h-[400px]"
+                            : "h-[365px]") +
+                          (p.mockup === "ipad" ? " h-[305px]" : "")
                         }
                         src={p.src}
                         alt="Album"

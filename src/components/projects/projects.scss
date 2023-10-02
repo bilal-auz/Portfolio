@@ -74,12 +74,25 @@
       align-content: center;
       justify-content: space-evenly;
       // padding: 15px;
+      @media (max-width: 1024px){
+        justify-content: center;
+        width: 40%;
+      }
+
+      .carousel-item{
+        @media (max-width: 1024px){
+          width: inherit;
+        }
+      }
 
       .myCard {
         // background: rgb(55,13,139);
         background: #180d30;
         background-image: linear-gradient(to left,rgba(24, 13, 48, 0), rgba(39, 105, 75, 0.65) 100%);
         // background: linear-gradient(0deg, rgba(55,13,139,1) 47%, rgba(46,131,91,1) 100%);
+        @media (max-width: 1024px){
+          flex-direction: column-reverse;
+        }
       }
 
       .myStats{
@@ -177,7 +190,8 @@
           }
 
           .card-body {
-            padding: 25px 10px 10px 10px;
+            // padding: 0 20px;
+            // padding: 25px 10px 10px 10px;
             .card-title {
               text-align: center;
               overflow: hidden;

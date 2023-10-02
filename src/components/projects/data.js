@@ -33,7 +33,7 @@ const projects = [
   },
   {
     tag: "webapp",
-    src: ["assets/mockups/MacBook.png"],
+    src: ["assets/mockups/MacBook.svg"],
     mockup: "laptop",
     title: "Travel Guide Provider",
     // body: "Help people know more about their next traveling destination.",
