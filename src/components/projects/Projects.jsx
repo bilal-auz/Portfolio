@@ -59,9 +59,12 @@ export default function Works() {
       </ul> */}
       <div className="wrapper">
         <div className="projectsContainer flex flex-col items-center p-8 pt-0">
-          <div className="carousel w-full flex">
+          <div className="carousel w-full flex overflow-hidden">
             {currentProjects.map((p, index) => (
-              <div id={"item" + (index + 1)} className="carousel-item px-12">
+              <div
+                id={"item" + (index + 1)}
+                className="carousel-item px-12 overflow-hidden"
+              >
                 <div className="myCard card lg:card-side bg-base-100 shadow-xl relative h-min-[500px] w-[1118px] h-[420px]">
                   <div className="card-body w-fit w-[52rem] justify-end relative">
                     <div className="myStats stats shadow shadow-inner w-fit self-center absolute top-0 left-0 rounded-none rounded-tl-2xl rounded-br-2xl bg-gradient-to-r">
