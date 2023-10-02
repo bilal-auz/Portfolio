@@ -4,7 +4,7 @@ import "./intro.scss";
 import { LinkedIn, GitHub, Email } from "@material-ui/icons";
 export default function Intro() {
   return (
-    <div className="section intro" id="intro">
+    <div className="section intro justify-start" id="intro">
       <div className="next">
         <a href="#skills">
           <svg
@@ -26,17 +26,22 @@ export default function Intro() {
       <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
       <div className="container flex flex-col lg:flex-row">
         <div className="left">
-          <div className="imgContainer">
-            <img src="assets/ana/bilal.png" alt="bilal" />
+          <div className="imgContainer lg:h-[500px] lg:w-[500px] lg:p-[50px]">
+            <img
+              className="h-[200px] lg:h-[90%]"
+              src="assets/ana/bilal.png"
+              alt="bilal"
+            />
           </div>
         </div>
-        <div className="right">
+        <div className="right md:items-center">
           <div className="wrapper">
             <h2>
               Hey There<span> 👉</span>
             </h2>
-            <h1>
-              Bilal <span className="ColoredLetter">A</span>bo
+            <h1 className="">
+              Bilal <span className="ColoredLetter">A</span>
+              bo
               <span className="ColoredLetter">uz</span>id
             </h1>
             <h3>

@@ -98,9 +98,22 @@ export default function TopBar(props) {
             </div>
           </div>
         </div>
-        <div className="wrapper flex items-center self-center justify-center lg:hidden ">
+        <div className="wrapper flex items-center self-center justify-evenly lg:hidden ">
           <div className="left">
             <img src="assets/auz.svg" alt="" onClick={() => toHome()} />
+          </div>
+          <div className="right">
+            <div className="itemContainer">
+              <img src="assets/resume.svg" alt="" />
+              <a
+                className="navItem"
+                href="assets/resume/Bilal-Abouzid-Resume-2023.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
+            </div>
           </div>
           {/* <div className="middle">
             <div className="dropdown overflow-hidden">
