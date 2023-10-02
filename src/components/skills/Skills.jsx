@@ -36,7 +36,7 @@ export default function Portfolio() {
               <h2>Programming Languages</h2>
             </div>
           </div> */}
-          <div id="me" className="skillsBox rounded-lg m-4">
+          <div id="me" className="skillsBox rounded-lg">
             <div className="middleContainer">
               <div className="wrapper">
                 {/* <h2>Skillsets</h2> */}
@@ -67,10 +67,10 @@ export default function Portfolio() {
         <div className="lamp"></div>
       </div>
       <div className="bottom mx-auto px-24 ">
-        <div class="grid grid-cols-6 gap-16 text-center">
+        <div class="grid grid-cols-2 gap-4 text-center md:grid-cols-4 lg:grid-cols-6 lg:gap-16">
           <div class="flex items-center justify-center">
             <img
-              className="block object-contain h-16"
+              className="block object-contain h-16 max-w-none"
               src="assets/icons/html.svg"
               alt="html"
             />
