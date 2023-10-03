@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 export default function TopBar(props) {
   const [active, setActive] = useState("a_intro");
+  const [shortNav, setshortNav] = useState(true);
 
   const toHome = () => {
     window.location = "/#intro";
@@ -16,7 +17,18 @@ export default function TopBar(props) {
 
   useEffect(() => {
     console.log("HELLI:" + props.activeSection);
-  }, []);
+
+    if (
+      props.activeSection === "a_projects" ||
+      props.activeSection === "a_aboutMe"
+    ) {
+      // console.log("shorter-nav");
+      setshortNav(true);
+    } else {
+      console.log("long-nav");
+      setshortNav(false);
+    }
+  }, [props.activeSection]);
 
   return (
     <div className="topBar absolute">
@@ -84,8 +96,12 @@ export default function TopBar(props) {
               </a>
             </div>
           </div>
-          <div className="right">
-            <div className="itemContainer">
+          <div className="right overflow-hidden">
+            <div
+              className={`itemContainer p-[10px] transition-transform duration-[2000ms] ${
+                shortNav && "scale-110 rotate-[360deg]"
+              }`}
+            >
               <img src="assets/resume.svg" alt="" />
               <a
                 className="navItem"
