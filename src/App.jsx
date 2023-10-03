@@ -29,10 +29,10 @@ function App(props) {
   };
 
   const renderContent = () => {
-    if (isMobile) {
-      return <NoMobile />;
-      // return <h1>Hello</h1>;
-    }
+    // if (isMobile) {
+    //   return <NoMobile />;
+    //   // return <h1>Hello</h1>;
+    // }
     return (
       <div className="app">
         <TopBar

@@ -3,12 +3,12 @@ import "./aboutMe.scss";
 export default function Contact() {
   return (
     <div className="section aboutMe" id="aboutMe">
-      <div className="container px-20">
+      <div className="container px-10">
         <div className="left">
           <h1 className="text-5xl text-center overflow-hidden mb-5">
             Who <span className="me">Am I</span> ?
           </h1>
-          <p className="text-xl overflow-hidden mb-1">
+          <p className="text-xl overflow-hidden mb-1 text-center">
             I'm a passionate tech enthusiast with a strong interest in software
             engineering, pursuing a Master's degree in Computer Engineering by
             day🌅, and actively honing my skills as a Software Engineer by
@@ -42,10 +42,12 @@ export default function Contact() {
             </span> */}
             <br />
             <br />
+          </p>
+          {/* <p className="text-lg overflow-hidden">
             Apart from <span className="tech">Coding</span>, other things
             <span className="me"> I'm passionate</span> about..
           </p>
-          <ul>
+          <ul className="">
             <li id="list-item-gym">
               <img src="assets/listBullets/boxing_gym.svg" alt="" />
               <p>Sport.</p>
@@ -58,7 +60,7 @@ export default function Contact() {
               <img src="assets/listBullets/new_tech.svg" alt="" />
               <p>Learn New Technologies.</p>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="right">
           {/* <img src="assets/listBullets/server.svg" alt="" /> */}

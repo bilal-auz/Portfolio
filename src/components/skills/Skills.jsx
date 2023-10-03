@@ -41,7 +41,7 @@ export default function Portfolio() {
               <div className="wrapper">
                 {/* <h2>Skillsets</h2> */}
                 <span>
-                  <code>&lt;Skillsets /&gt;</code>
+                  <code>&lt; Skillsets /&gt;</code>
                 </span>
               </div>
             </div>

@@ -86,13 +86,20 @@
 
     .right {
       // background-color: yellowgreen;
-      flex: 4;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      // flex: 4;
+      display: none;
+      // justify-content: center;
+      // align-items: center;
       img {
         width: 300px;
         height: 300px;
+      }
+
+      @media (min-width: 1024px){
+        flex: 4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }

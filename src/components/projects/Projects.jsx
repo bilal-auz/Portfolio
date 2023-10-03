@@ -45,7 +45,10 @@ export default function Works() {
           </svg>
         </a>
       </div>
-      <h1>Projects</h1>
+      {/* <h1>Projects</h1> */}
+      <h1>
+        <code>&lt; Projects /&gt;</code>
+      </h1>
       {/* <ul className="menu menu-horizontal bg-base-100 rounded-box">
         {list.map((item) => (
           <WorksList
