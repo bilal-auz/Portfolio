@@ -5,10 +5,10 @@ export default function Contact() {
     <div className="section aboutMe" id="aboutMe">
       <div className="container px-10">
         <div className="left">
-          <h1 className="text-5xl text-center overflow-hidden mb-5">
+          <h1 className="text-5xl text-center overflow-hidden mb-5 text-[#f5f5f5]">
             Who <span className="me">Am I</span> ?
           </h1>
-          <p className="text-xl overflow-hidden mb-1 text-center">
+          <p className="text-xl overflow-hidden mb-1 text-center text-[#f5f5f5]">
             I'm a passionate tech enthusiast with a strong interest in software
             engineering, pursuing a Master's degree in Computer Engineering by
             day🌅, and actively honing my skills as a Software Engineer by

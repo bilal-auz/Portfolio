@@ -89,14 +89,16 @@ export default function Works() {
                       </div>
                     </div>
 
-                    <h2 className="card-title text-2xl leading-[3rem] truncate max-md:pt-[40px] max-sm:pt-[40px]">
+                    <h2 className="card-title text-2xl leading-[3rem] truncate max-md:pt-[40px] max-sm:pt-[40px] text-[#f5f5f5]">
                       {p.title}{" "}
                       <span className="text-[0.9rem] italic">
                         {p.span && `-${p.span}-`}
                       </span>
                     </h2>
 
-                    <p className="grow-0 text-base text-left">{p.body}</p>
+                    <p className="grow-0 text-base text-left text-[#f5f5f5]">
+                      {p.body}
+                    </p>
                     <div className="card-actions justify-start pt-5 items-center h-[150px] overflow-hidden lg:h-auto">
                       <a
                         role="button"
