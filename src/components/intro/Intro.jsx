@@ -5,7 +5,7 @@ import { LinkedIn, GitHub, Email } from "@material-ui/icons";
 export default function Intro() {
   return (
     <div className="section intro justify-start" id="intro">
-      <div className="next">
+      {/* <div className="next">
         <a href="#skills">
           <svg
             className="w-6 h-6"
@@ -22,7 +22,7 @@ export default function Intro() {
             ></path>
           </svg>
         </a>
-      </div>
+      </div> */}
       <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
       <div className="container flex flex-col lg:flex-row">
         <div className="left">

@@ -89,6 +89,9 @@
         justify-self: flex-end;
         position: relative;
         top: 60px;
+        @media (max-width: 1024px){
+          top: 0px;
+        }
 
         h1 {
           font-size: 60px;

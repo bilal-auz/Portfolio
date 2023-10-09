@@ -2,7 +2,7 @@ import "./skills.scss";
 export default function Portfolio() {
   return (
     <div className="section skills" id="skills">
-      <div className="next">
+      {/* <div className="next">
         <a href="#projects">
           <svg
             className="w-6 h-6"
@@ -19,7 +19,7 @@ export default function Portfolio() {
             ></path>
           </svg>
         </a>
-      </div>
+      </div> */}
       <script src="leader-line.min.js"></script>
       <div className="top">
         <div class="grid grid-rows-1 grid-flow-col">
@@ -39,10 +39,9 @@ export default function Portfolio() {
           <div id="me" className="skillsBox rounded-lg">
             <div className="middleContainer">
               <div className="wrapper">
-                {/* <h2>Skillsets</h2> */}
-                <span>
+                <p className="text-2xl text-[#2e835b]">
                   <code>&lt; Skillsets /&gt;</code>
-                </span>
+                </p>
               </div>
             </div>
           </div>

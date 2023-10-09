@@ -17,7 +17,7 @@ const projects = [
     tag: "BI",
     src: ["assets/mockups/mobile_proj.svg"],
     title: "Inventory Management",
-    span: "Freelance Project",
+    span: "",
     mockup: "iphone",
     width: "600px",
     height: "400px",
