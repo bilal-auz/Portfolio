@@ -66,64 +66,64 @@ export default function Portfolio() {
         <div className="lamp"></div>
       </div>
       <div className="bottom mx-auto px-24 ">
-        <div class="grid grid-cols-2 gap-4 text-center md:grid-cols-4 lg:grid-cols-6 lg:gap-16">
-          <div class="flex items-center justify-center">
+        <div class="grid grid-cols-2 gap-4 text-center md:grid-cols-4 lg:grid-cols-6 lg:gap-16 overflow-hidden">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-16 max-w-none"
               src="assets/icons/html.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-16"
               src="assets/icons/css.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-16"
               src="assets/icons/nodejs.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-[100px]"
               src="assets/icons/express.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-16"
               src="assets/icons/react.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-16"
               src="assets/icons/mongodb.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-16"
               src="assets/icons/tailwind.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-[90px]"
               src="assets/icons/graphql.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               id="linux"
               className="block object-contain h-[100px]"
@@ -131,21 +131,21 @@ export default function Portfolio() {
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-[80px]"
               src="assets/icons/postman.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-16"
               src="assets/icons/git.svg"
               alt="html"
             />
           </div>
-          <div class="flex items-center justify-center">
+          <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               id="linux"
               className="block object-contain h-16"
