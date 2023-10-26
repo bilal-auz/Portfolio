@@ -2,7 +2,7 @@ const projects = [
   {
     src: ["assets/mockups/statify.svg"],
     title: "Statify",
-    body: "Welcome to my Spotify Stats Dashboard, where you can dive deep into your music journey. This user-friendly platform, built with React and Tailwind CSS, employs a graphing library to visually represent Spotify data, showcasing my proficiency in integrating external APIs for a comprehensive and engaging music analysis experience.",
+    body: "Spotify Stats Dashboard where you can dive deep into your music journey. This user-friendly platform, built with React and Tailwind CSS, employs a graphing library to visually represent Spotify data, showcasing my understanding of OAuth 2.0 authentication mechanism and consuming external APIs securely.",
     link: "https://github.com/bilal-auz/statify",
     skills: [
       "assets/icons/react.svg",
@@ -11,7 +11,7 @@ const projects = [
       "assets/icons/spotify-devs.svg",
     ],
     span: "Inaccessible, pending Spotify approval",
-    date: "Oct 2023",
+    // date: "Oct 2023",
   },
   {
     tag: "systems",
@@ -25,7 +25,7 @@ const projects = [
       "assets/icons/mongodb.svg",
     ],
     span: "Still Under Development",
-    date: "Mar 2023",
+    // date: "Mar 2023",
   },
   {
     tag: "BI",
@@ -43,7 +43,7 @@ const projects = [
       "assets/icons/Nodejs.svg",
       "assets/icons/mongodb.svg",
     ],
-    date: "Mar 2022",
+    // date: "Mar 2022",
   },
   {
     tag: "webapp",
@@ -59,7 +59,7 @@ const projects = [
       "assets/icons/mongodb.svg",
       "assets/icons/bootstrap.svg",
     ],
-    date: "Aug 2021",
+    // date: "Aug 2021",
   },
   {
     tag: "webapp",
@@ -75,7 +75,7 @@ const projects = [
       "assets/icons/mongodb.svg",
       "assets/icons/bootstrap.svg",
     ],
-    date: "Jan 2021",
+    // date: "Jan 2021",
   },
 ];
 
