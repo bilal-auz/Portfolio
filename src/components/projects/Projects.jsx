@@ -62,11 +62,11 @@ export default function Works() {
       </ul> */}
       <div className="wrapper px-24">
         <div className="projectsContainer hidden lg:flex lg:flex-col lg:items-center lg:p-8 lg:pt-0">
-          <div className="carousel w-full flex overflow-hidden">
+          <div className="carousel flex flex-col overflow-hidden">
             {currentProjects.map((p, index) => (
               <div
                 id={"item" + (index + 1)}
-                className="carousel-item overflow-hidden max-lg:px-12"
+                className="carousel-item overflow-hidden lg:pb-12 lg:px-12"
               >
                 <div className="myCard card lg:card-side bg-base-100 shadow-xl relative h-[470px] h-min-[500px] w-[1118px] lg:h-[420px]">
                   <div className="myStats stats stats-vertical shadow shadow-inner w-fit self-center absolute top-0 left-0 rounded-none rounded-tl-2xl rounded-br-2xl p-1 bg-gradient-to-r inline-grid lg:hidden">
@@ -123,7 +123,7 @@ export default function Works() {
                         "w-[300px] right-[0px] lg:w-[700px] " +
                         "absolute " +
                         (p.mockup === "ipad" || p.mockup === "iphone"
-                          ? "lg:right-[-40px]"
+                          ? "lg:right-[-180px]"
                           : "lg:right-[-180px]")
                       }
                     >
@@ -132,9 +132,9 @@ export default function Works() {
                         className={
                           "lg:w-[600px] " +
                           (p.mockup === "iphone"
-                            ? "h-[200px] lg:h-[400px]"
+                            ? "h-[200px] lg:h-[365px]"
                             : "h-[365px]") +
-                          (p.mockup === "ipad" ? " h-[305px]" : "")
+                          (p.mockup === "ipad" ? " h-[365px]" : "")
                         }
                         src={p.src}
                         alt="Album"
@@ -156,7 +156,7 @@ export default function Works() {
             ))}
           </div>
 
-          <div class="flex justify-center w-full py-2 gap-2">
+          {/* <div class="flex justify-center w-full py-2 gap-2">
             {currentProjects.map((item, index) => (
               <a
                 id={index}
@@ -169,7 +169,7 @@ export default function Works() {
                 {index + 1}
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
         <div className="projectsContainer flex flex-col justify-center justify-between w-full overflow-hidden items-center p-8 pt-0 lg:hidden">
           {currentProjects.map((p, index) => (

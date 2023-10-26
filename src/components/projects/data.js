@@ -1,5 +1,19 @@
 const projects = [
   {
+    src: ["assets/mockups/statify.svg"],
+    title: "Statify",
+    body: "Welcome to my Spotify Stats Dashboard, where you can dive deep into your music journey. This user-friendly platform, built with React and Tailwind CSS, employs a graphing library to visually represent Spotify data, showcasing my proficiency in integrating external APIs for a comprehensive and engaging music analysis experience.",
+    link: "https://github.com/bilal-auz/statify",
+    skills: [
+      "assets/icons/react.svg",
+      "assets/icons/tailwind.svg",
+      "assets/icons/recharts.svg",
+      "assets/icons/spotify-devs.svg",
+    ],
+    span: "Inaccessible, pending Spotify approval",
+    date: "Oct 2023",
+  },
+  {
     tag: "systems",
     src: ["assets/mockups/daSummary_laptop.svg"],
     title: "DaSummary",
