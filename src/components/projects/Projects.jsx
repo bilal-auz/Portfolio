@@ -202,7 +202,13 @@ export default function Works() {
                 id={"item" + (index + 1)}
                 className="carousel-item overflow-hidden p-5 pt-1 max-lg:px-12"
               >
-                <div className="myCard card lg:card-side bg-base-100 shadow-xl relative h-[470px] h-min-[500px] w-[1118px] lg:h-[420px]">
+                <div
+                  className={
+                    (index + 1) % 2 == 0
+                      ? "myCard odd card lg:card-side bg-base-100 shadow-xl relative h-[470px] h-min-[500px] w-[1118px] lg:h-[420px] "
+                      : "myCard card lg:card-side bg-base-100 shadow-xl relative h-[470px] h-min-[500px] w-[1118px] lg:h-[420px]"
+                  }
+                >
                   <div className="myStats stats stats-vertical shadow shadow-inner w-fit self-center absolute top-0 left-0 rounded-none rounded-tl-2xl rounded-br-2xl p-1 bg-gradient-to-r inline-grid lg:hidden">
                     <div className="stat flex flex-col justify-evenly w-min-fit p-2 self-center">
                       {p.skills.map((src) => (
@@ -236,18 +242,36 @@ export default function Works() {
                     <div className="card-actions justify-start pt-5 items-center h-[150px] overflow-hidden lg:h-auto">
                       <a
                         role="button"
-                        className="btn btn-neutral text-[#2e835b]"
+                        className={
+                          (index + 1) % 2 == 0
+                            ? "btn btn-neutral text-[#a239b8]"
+                            : "btn btn-neutral text-[#2e835b]"
+                        }
                         href={p.link}
                         target="_blank"
                         rel="noreferrer"
                       >
                         See Project
                         {/* <img src="assets/icons/export.svg" alt="" /> */}
-                        <GitHub className="ml-2 text-[#369e6d]" />
+                        <GitHub
+                          className={
+                            (index + 1) % 2 == 0
+                              ? "ml-2 text-[#881e9e]"
+                              : "ml-2 text-[#369e6d]"
+                          }
+                        />
                       </a>
-                      <div className="badge badge-md font-bold overflow-hidden text-[#2e835b] rounded-lg">
-                        {p.date}
-                      </div>
+                      {p.date && (
+                        <div
+                          className={
+                            (index + 1) % 2 == 0
+                              ? "badge badge-md font-bold overflow-hidden text-[#881e9e] rounded-lg"
+                              : "badge badge-md font-bold overflow-hidden text-[#2e835b] rounded-lg"
+                          }
+                        >
+                          {p.date}
+                        </div>
+                      )}
                     </div>
                   </div>
                   {/* right */}
