@@ -45,7 +45,7 @@ export default function Intro() {
               <span className="ColoredLetter">uz</span>id
             </h1>
             <h3>
-              — Juinor Software Engineer
+              — Software Engineer
               <span>
                 👨‍💻 🛠 <img src="assets/database.svg" alt="" />
               </span>
