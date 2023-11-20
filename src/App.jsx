@@ -45,6 +45,38 @@ function App(props) {
           <Skills />
           <Projects />
           <AboutMe />
+          <footer className="footer flex flex-row items-center justify-center bg-[#0d071975] text-base-content text-gray-500 rounded pt-5 pb-5">
+            <aside>
+              <p className="inline text-s_green ml-2 text-base">
+                Copyright © 2023 By
+                <a
+                  href="https://www.linkedin.com/in/bilal-abouzid"
+                  target="_blank"
+                >
+                  {" "}
+                  @bilal-auz
+                </a>
+              </p>
+            </aside>
+
+            <nav className="flex flex-row">
+              <div className="grid grid-flow-col gap-4">
+                <a href="https://github.com/bilal-auz" target="_blank">
+                  <img src="assets/icons/github-icon.svg" alt="" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/bilal-abouzid"
+                  target="_blank"
+                >
+                  <img
+                    className="rounded-sm"
+                    src="assets/icons/linkedin-icon.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </nav>
+          </footer>
         </div>
       </div>
     );

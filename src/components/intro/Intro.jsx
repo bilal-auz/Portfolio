@@ -26,15 +26,17 @@ export default function Intro() {
       <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
       <div className="container flex flex-col lg:flex-row">
         <div className="left">
-          <div className="imgContainer lg:h-[500px] lg:w-[500px] lg:p-[50px]">
+          {/* <div className="imgContainer lg:h-[500px] lg:w-[500px] lg:p-[50px]"> */}
+          <div className="imgContainer">
             <img
-              className="h-[200px] lg:h-[90%]"
+              // className="h-[200px] lg:h-[90%]"
+              className="w-[137px] h-[200px] lg:w-72 lg:h-auto"
               src="assets/ana/bilal.png"
               alt="bilal"
             />
           </div>
         </div>
-        <div className="right md:items-center">
+        <div className="right md:items-center md:justify-around">
           <div className="wrapper">
             <h2>
               Hey There<span> 👉</span>
@@ -51,7 +53,7 @@ export default function Intro() {
               </span>
             </h3>
           </div>
-          <div className="socialLinks">
+          <div className="socialLinks flex flex-col items-center">
             <div className="menu transparent menu-horizontal">
               <div>
                 <a
@@ -79,6 +81,14 @@ export default function Intro() {
                 </a>
               </div>
             </div>
+            <button className="btn w-[80%] bg-[#2e845c] text-[#180d30] mb-2.5 hover:bg-[#6a71d8]">
+              <img
+                className="w-7 text-[#FFF]"
+                src="assets/resume-dark.svg"
+                alt=""
+              />
+              My Resume
+            </button>
           </div>
         </div>
       </div>
