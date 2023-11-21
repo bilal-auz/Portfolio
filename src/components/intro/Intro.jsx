@@ -73,7 +73,8 @@ function Intro() {
         templarH3.style.setProperty("--ytemplarH3", 0 + "px");
       }}
       className={
-        (isLoaded && "section intro justify-start relative overflow-hidden") ||
+        (isLoaded &&
+          "section intro justify-start relative overflow-hidden cursor-default") ||
         "section intro justify-start relative overflow-hidden hidden"
       }
       id="intro"
@@ -165,11 +166,9 @@ function Intro() {
                 بلال توفيق أبوزيد
               </h1>
             </div>
-            <h3 className="templarH3 z-10">
-              — Software Engineer
-              <span className="templarSpan">
-                👨‍💻 🛠 <img src="assets/database.svg" alt="" />
-              </span>
+            <h3 className="templarH3">
+              <span className="">—</span> Software Engineer
+              <span className="templarSpan w-1">👨‍💻</span>
             </h3>
           </div>
           <div className="socialLinks flex flex-col items-center z-50">

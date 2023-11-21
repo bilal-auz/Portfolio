@@ -90,8 +90,8 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div className="flex flex-col">
-                  <p className="text-sm">Software Engineer</p>
-                  <p className="text-2xl mt-1">Bilal Abouzid</p>
+                  <p className="text-sm text-[#FFF]">Software Engineer</p>
+                  <p className="text-2xl mt-1 text-[#FFF]">Bilal Abouzid</p>
                 </div>
               </div>
 
@@ -109,8 +109,10 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div className="flex flex-col">
-                  <p className="text-sm">Email</p>
-                  <p className="text-1xl mt-1">imBilalAbouzid@gmail.com</p>
+                  <p className="text-sm text-[#FFF]">Email</p>
+                  <p className="text-1xl mt-1 text-[#FFF]">
+                    imBilalAbouzid@gmail.com
+                  </p>
                 </div>
               </div>
 
@@ -128,9 +130,9 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div className="flex flex-col">
-                  <p className="text-sm">Location</p>
+                  <p className="text-sm text-[#FFF]">Location</p>
                   <div className="flex flex-row mt-1">
-                    <p className="text-1xl mr-1">From Morocco</p>
+                    <p className="text-1xl mr-1 text-[#FFF]">From Morocco</p>
                     <svg
                       className="w-3 rounded-lg"
                       xmlns="http://www.w3.org/2000/svg"
@@ -147,7 +149,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div className="flex flex-row">
-                    <p className="text-md mr-1">Live in Turkey</p>
+                    <p className="text-md mr-1 text-[#FFF]">Live in Turkey</p>
                     <svg
                       className="w-3 rounded-lg"
                       xmlns="http://www.w3.org/2000/svg"

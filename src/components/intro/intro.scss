@@ -199,6 +199,7 @@
             }
           }
           .templarSpan{
+            
             // background: 
             //   radial-gradient(circle 110px 
             //                   at var(--xTemplarH3,0) var(--yTemplarH3,0), 
@@ -223,15 +224,16 @@
         }
 
         h3.templarH3{
-          background: 
-            radial-gradient(circle 116px 
-                            at var(--xTemplarH3,0) var(--yTemplarH3,0), 
-                            #180d30 99%,#2e845c 100%) 
-                            fixed;
-          background-clip: text;
-          -webkit-background-clip: text;
-          color:transparent;
-          -webkit-text-fill-color: transparent;
+          color: #FFF;
+          // background: 
+          //   radial-gradient(circle 116px 
+          //                   at var(--xTemplarH3,0) var(--yTemplarH3,0), 
+          //                   #180d30 99%,#FFF 100%) 
+          //                   fixed;
+          // background-clip: text;
+          // -webkit-background-clip: text;
+          // color:transparent;
+          // -webkit-text-fill-color: transparent;
         }
       }
 
