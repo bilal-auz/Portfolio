@@ -172,7 +172,7 @@ function Intro() {
               </span>
             </h3>
           </div>
-          <div className="socialLinks flex flex-col items-center">
+          <div className="socialLinks flex flex-col items-center z-50">
             <div className="menu transparent menu-horizontal">
               <div>
                 <a
@@ -200,14 +200,18 @@ function Intro() {
                 </a>
               </div>
             </div>
-            <button className="btn w-[80%] bg-[#2e845c] text-[#180d30] mb-2.5 hover:bg-[#6a71d8]">
+            <a
+              href="assets/resume/Bilal-Abouzid-Resume-2023.pdf"
+              target="_blank"
+              className="btn w-[80%] bg-[#2e845c] text-[#180d30] mb-2.5 hover:bg-[#6a71d8]"
+            >
               <img
                 className="w-7 text-[#FFF]"
                 src="assets/resume-dark.svg"
                 alt=""
               />
               My Resume
-            </button>
+            </a>
           </div>
         </div>
       </div>

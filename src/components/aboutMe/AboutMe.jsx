@@ -175,10 +175,14 @@ export default function Contact() {
               </div>
 
               <div className="flex flex-row justify-center w-full overflow-hidden mt-5">
-                <button className="btn bg-[#2e845c] text-[#180d30] hover:bg-[#2e845c] border-none">
+                <a
+                  href="assets/resume/Bilal-Abouzid-Resume-2023.pdf"
+                  target="_blank"
+                  className="btn bg-[#2e845c] text-[#180d30] hover:bg-[#2e845c] border-none"
+                >
                   <img className="w-7" src="assets/resume-dark.svg" alt="" />
                   My Resume
-                </button>
+                </a>
               </div>
             </div>
           </div>
