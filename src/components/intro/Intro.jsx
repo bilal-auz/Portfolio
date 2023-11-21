@@ -211,7 +211,6 @@ function Intro() {
           </div>
         </div>
       </div>
-      <div>hh</div>
     </div>
   );
 }
