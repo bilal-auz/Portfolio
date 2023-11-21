@@ -31,7 +31,27 @@ export default function TopBar(props) {
   }, [props.activeSection]);
 
   return (
-    <div className="topBar absolute">
+    <div
+      onMouseEnter={(e) => {
+        const cursor = document.querySelector(".cursor");
+        const templar = document.querySelector(".templar");
+        const hiddenOne = document.querySelector(".hiddenOne");
+        const templarH3 = document.querySelector(".templarH3");
+
+        cursor.style.transform = "scale(0.1)";
+
+        templar.style.setProperty("--x", 0 + "px");
+        templar.style.setProperty("--y", 0 + "px");
+        // cursor.style.setProperty("--xx", 0 + "px");
+        // cursor.style.setProperty("--yy", 0 + "px");
+        hiddenOne.style.setProperty("--xxx", 0 + "px");
+        hiddenOne.style.setProperty("--yyy", 0 + "px");
+
+        templarH3.style.setProperty("--xtemplarH3", 0 + "px");
+        templarH3.style.setProperty("--ytemplarH3", 0 + "px");
+      }}
+      className="topBar absolute"
+    >
       {console.log(props.location.hash)}
       <nav className="container px-6 py-4 mx-auto">
         <div className="wrapper hidden lg:flex lg:items-center lg:self-center lg:justify-center">

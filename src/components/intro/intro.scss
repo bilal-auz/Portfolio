@@ -11,6 +11,16 @@
   justify-content: space-around;
   align-items: center;
 
+  .cursor{
+    display: block;
+    // --xx: 1065 - 110 + "px";
+    // --yy: 234 - 170 + "px";
+    left: var(--xx);
+    top: var(--yy);
+
+
+    transition:all 0.3s ease-out;
+  }
   .next {
     // background-color: #2e835b;
     position: absolute;
@@ -95,26 +105,66 @@
 
         h1 {
           font-size: 60px;
-          margin: 10px 0 0 10px;
+          margin: 10px 0 5px 10px;
           text-transform: uppercase;
           font-weight: bolder;
-          color: #ffffff;
+          
+          // color: #ffffff;
           @media (max-width: 1024px){
             font-size: 30px;
           }
-        }
-        h1 > .ColoredLetter{
-          overflow: hidden;
-          display: inline-block;
-          color:#2e845c;
-          font-family: 'Old English Five', sans-serif;
-          font-size: 45px;
-          transform: rotate(5deg);
-          vertical-align: text-top;
-          @media (max-width: 1024px){
-            font-size: 23px;
+
+          .ColoredLetter{
+            overflow: hidden;
+            // display: inline-block;
+            color:#2e845c;
+            font-family: 'Old English Five', sans-serif;
+            font-size: 45px;
+            vertical-align: text-top;
+
+            background: 
+            radial-gradient(circle 110px 
+                            at var(--x,0) var(--y,0), 
+                            #2e845c00 99%,#2e845c 100%) 
+                            fixed;
+          background-clip: text;
+          -webkit-background-clip: text;
+          color:transparent;
+          // -webkit-text-fill-color: transparent;
+
+            @media (max-width: 1024px){
+              font-size: 23px;
+            }
           }
         }
+
+        .templar{
+          background: 
+          radial-gradient(circle 110px 
+                          at var(--x,0) var(--y,0), 
+                          #842e2e00 99%,rgb(255, 255, 255) 100%) 
+                          fixed;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color:transparent;
+        -webkit-text-fill-color: transparent;
+        }
+
+        h1.hiddenOne{
+          cursor: none;
+
+          background: 
+          radial-gradient(circle 110px 
+                          at var(--xxx,0) var(--yyy,0), 
+                          #180d30 99%,#ffffff00 100%) 
+                          fixed;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color:transparent;
+        -webkit-text-fill-color: transparent;
+        }
+
+
         h2 {
           font-style: italic;
           color: rgb(143, 142, 142);
@@ -143,9 +193,21 @@
 
           span {
             font-size: 25px;
+
             @media (max-width: 1024px){
               font-size: 15px;
             }
+          }
+          .templarSpan{
+            // background: 
+            //   radial-gradient(circle 110px 
+            //                   at var(--xTemplarH3,0) var(--yTemplarH3,0), 
+            //                   #180d30 99%,rgb(255, 255, 255) 100%) 
+            //                   fixed;
+            // background-clip: text;
+            // -webkit-background-clip: text;
+            // color:transparent;
+            // -webkit-text-fill-color: transparent;
           }
           img {
             filter: invert(44%) sepia(62%) saturate(373%) hue-rotate(99deg)
@@ -158,6 +220,18 @@
               height: 14px;
             }
           }
+        }
+
+        h3.templarH3{
+          background: 
+            radial-gradient(circle 116px 
+                            at var(--xTemplarH3,0) var(--yTemplarH3,0), 
+                            #180d30 99%,#2e845c 100%) 
+                            fixed;
+          background-clip: text;
+          -webkit-background-clip: text;
+          color:transparent;
+          -webkit-text-fill-color: transparent;
         }
       }
 
