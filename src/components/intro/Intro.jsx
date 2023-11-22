@@ -60,6 +60,7 @@ function Intro() {
         const hiddenOne = document.querySelector(".hiddenOne");
         const templarH3 = document.querySelector(".templarH3");
 
+        cursor.style.display = "block";
         cursor.style.transform = "scale(0.1)";
 
         templar.style.setProperty("--x", 0 + "px");
@@ -71,6 +72,25 @@ function Intro() {
 
         templarH3.style.setProperty("--xtemplarH3", 0 + "px");
         templarH3.style.setProperty("--ytemplarH3", 0 + "px");
+      }}
+      onMouseLeave={(e) => {
+        const cursor = document.querySelector(".cursor");
+        cursor.style.display = "none";
+        const templar = document.querySelector(".templar");
+        const hiddenOne = document.querySelector(".hiddenOne");
+        const templarH3 = document.querySelector(".templarH3");
+
+        // cursor.style.transform = "scale(0.1)";
+
+        // templar.style.setProperty("--x", 0 + "px");
+        // templar.style.setProperty("--y", 0 + "px");
+        // cursor.style.setProperty("--xx", 0 + "px");
+        // cursor.style.setProperty("--yy", 0 + "px");
+        // hiddenOne.style.setProperty("--xxx", 0 + "px")/;
+        // hiddenOne.style.setProperty("--yyy", 0 + "px");
+
+        // templarH3.style.setProperty("--xtemplarH3", 0 + "px");
+        // templarH3.style.setProperty("--ytemplarH3", 0 + "px");
       }}
       className={
         (isLoaded &&

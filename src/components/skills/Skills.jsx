@@ -134,7 +134,7 @@ export default function Portfolio() {
           <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
               className="block object-contain h-[80px]"
-              src="assets/icons/postman.svg"
+              src="assets/icons/docker.svg"
               alt="html"
             />
           </div>
