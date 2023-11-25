@@ -118,16 +118,16 @@ export default function Portfolio() {
           </div>
           <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
-              className="block object-contain h-[90px]"
-              src="assets/icons/graphql.svg"
+              id="linux"
+              className="block object-contain h-[100px]"
+              src="assets/icons/mysql.svg"
               alt="html"
             />
           </div>
           <div class="flex items-center justify-center transition-transform duration-[300ms] hover:scale-125">
             <img
-              id="linux"
-              className="block object-contain h-[100px]"
-              src="assets/icons/mysql.svg"
+              className="block object-contain h-[90px]"
+              src="assets/icons/azure.svg"
               alt="html"
             />
           </div>

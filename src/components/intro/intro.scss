@@ -178,24 +178,24 @@
         }
 
         h3 {
-          font-size: 24px;
+          // font-size: 24px;
           font-weight: 500;
           margin-left: 10px;
           margin-left: 70px;
           text-transform: uppercase;
-          color: #2e845c;
+          color: #FFF;
           margin-bottom: 20px;
 
           @media (max-width: 1024px){
-            font-size: 14px;
+            // font-size: 14px;
             margin-left: 40px;
           }
 
           span {
-            font-size: 25px;
+            // font-size: 25px;
 
             @media (max-width: 1024px){
-              font-size: 15px;
+              // font-size: 15px;
             }
           }
           .templarSpan{
@@ -211,11 +211,11 @@
             // -webkit-text-fill-color: transparent;
           }
           img {
-            filter: invert(44%) sepia(62%) saturate(373%) hue-rotate(99deg)
-              brightness(86%) contrast(97%);
+            // filter: invert(44%) sepia(62%) saturate(373%) hue-rotate(99deg)
+            //   brightness(86%) contrast(97%);
             display: revert;
-            width: 35px;
-            height: 25px;
+            // width: 35px;
+            // height: 25px;
             @media (max-width: 1024px){
               width: 18px;
               height: 14px;

@@ -186,9 +186,16 @@ function Intro() {
                 بلال توفيق أبوزيد
               </h1>
             </div>
-            <h3 className="templarH3">
-              <span className="">—</span> Software Engineer
-              <span className="templarSpan w-1">👨‍💻</span>
+            <h3 className="text-[#FFF] text-base md:text-2xl">
+              — Software Engineer{" "}
+              <span className="inline-flex items-baseline text-xs md:text-lg text-[#008AD7]">
+                <img
+                  className="w-3 md:w-[18px]"
+                  src="assets/icons/azure-logo.svg"
+                  alt=""
+                />{" "}
+                zure Certified
+              </span>
             </h3>
           </div>
           <div className="socialLinks flex flex-col items-center z-50">
