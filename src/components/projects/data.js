@@ -1,9 +1,11 @@
 const projects = [
   {
-    src: ["assets/mockups/statify.svg"],
-    title: "Statify",
+    src: ["assets/mockups/statify-v2.svg"],
+    title: "Statify: Spotify Tracker",
+    mini_body:
+      "Track your Spotify activity, stats, and dive deep into your music journey",
     body: "Spotify Stats Dashboard where you can dive deep into your music journey. This user-friendly platform, built with React and Tailwind CSS, employs a graphing library to visually represent Spotify data, showcasing my understanding of OAuth 2.0 authentication mechanism and consuming external APIs securely.",
-    link: "https://github.com/bilal-auz/statify",
+    link: "https://statify-dev.netlify.app",
     skills: [
       "assets/icons/react.svg",
       "assets/icons/tailwind.svg",
@@ -17,6 +19,8 @@ const projects = [
     tag: "systems",
     src: ["assets/mockups/daSummary_laptop.svg"],
     title: "DaSummary",
+    mini_body:
+      "Explore a dynamic mini web dashboard that combines data from various sources including Twitter, OpenWeather, and Spotify.",
     body: "Explore a dynamic mini web dashboard that seamlessly combines data from various sources, including Twitter, OpenWeather, and Spotify, all in a single place. Developed using React and Tailwind, this web app showcases my frontend skills and ability to utilize the UI components libraries and demonstrate my proficiency in leveraging external APIs and integrating their data successfully.",
     link: "https://github.com/bilal-auz/School_Students_Management_System--Dec-2020",
     skills: [
@@ -29,13 +33,15 @@ const projects = [
   },
   {
     tag: "BI",
-    src: ["assets/mockups/mobile_proj.svg"],
+    src: ["assets/mockups/mobile_proj-v2.svg"],
     title: "Inventory Management",
     span: "",
     mockup: "iphone",
     width: "600px",
     height: "400px",
-    body: "As the developer of this freelance mobile app, I converted the customer requirements and ideas into a real application. Built on NodeJS/ExpressJS with MongoDB in the backend. And React Native, with Native-Base and React-Navigation, for the frontend. The app offers seamless inventory management, real-time stats, and secure login capabilities.",
+    mini_body:
+      "A freelance mobile app, I converted the customer requirements and ideas into a fully functional application.",
+    body: "As the developer of this freelance mobile app, I converted the customer requirements and ideas into a fully functional application. Built on NodeJS/ExpressJS with MongoDB in the backend. And React Native, with Native-Base and React-Navigation, for the frontend. The app offers seamless inventory management, real-time stats, and secure login capabilities.",
     link: "https://github.com/bilal-auz/Inventory_Management_Mobile-App",
     skills: [
       "assets/icons/ReactN.svg",
@@ -50,7 +56,7 @@ const projects = [
     src: ["assets/mockups/MacBook.svg"],
     mockup: "laptop",
     title: "Travel Guide Provider",
-    // body: "Help people know more about their next traveling destination.",
+    mini_body: "Help people know more about their next traveling destination.",
     body: "As the developer of this portfolio project, my focus was on developing a robust backend system that efficiently utilizes external APIs to provide real-time travel data. The website empowers users to access comprehensive information on hotels, flight ticket prices, restaurants, and captivating visuals through a seamless search functionality, highlighting my technical skills in backend development and data integration.",
     link: "https://github.com/bilal-auz/Travel_Guider",
     skills: [
@@ -66,7 +72,8 @@ const projects = [
     src: ["assets/mockups/blog_ipad.svg"],
     mockup: "ipad",
     title: "NodeJS CRUD BLOG",
-    // body: "Blog where you can login to your account and write blogs and comment others people blogs.",
+    mini_body:
+      "Blog where you can login to your account and write blogs and comment others people blogs.",
     body: "This project showcases my skills in building core backend functionalities. The Key features include user authentication with login and register functionality, enabling users to add, edit, and delete blogs effortlessly. Additionally, users can interact and engage with the content by adding, editing, and deleting comments on each blog post.",
     link: "https://github.com/bilal-auz/Blog-Backend-Personal-Project",
     skills: [

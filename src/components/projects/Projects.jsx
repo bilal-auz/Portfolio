@@ -205,41 +205,44 @@ export default function Works() {
                 <div
                   className={
                     (index + 1) % 2 == 0
-                      ? "myCard odd card lg:card-side bg-base-100 shadow-xl relative h-[470px] h-min-[500px] w-[1118px] lg:h-[420px] "
-                      : "myCard card lg:card-side bg-base-100 shadow-xl relative h-[470px] h-min-[500px] w-[1118px] lg:h-[420px]"
+                      ? "flex flex-col justify-around items-center myCard odd card lg:card-side bg-base-100 shadow-xl relative h-[490px] h-min-[500px] w-[1118px] lg:h-[420px] "
+                      : "flex flex-col justify-around items-center myCard card lg:card-side bg-base-100 shadow-xl relative h-[490px] h-min-[500px] w-[1118px] lg:h-[420px]"
                   }
                 >
-                  <div className="myStats stats stats-vertical shadow shadow-inner w-fit self-center absolute top-0 left-0 rounded-none rounded-tl-2xl rounded-br-2xl p-1 bg-gradient-to-r inline-grid lg:hidden">
-                    <div className="stat flex flex-col justify-evenly w-min-fit p-2 self-center">
-                      {p.skills.map((src) => (
-                        <figure className="h-12 w-12">
-                          <img className="w-[25px]" src={src} alt="" />
-                        </figure>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="pr-[10px] pl-[20px] pb-0 pt-[15px] mb-[20px] card-body w-fit justify-end relative lg:w-[52rem]">
-                    <div className="myStats stats shadow shadow-inner w-fit self-center absolute top-0 left-0 rounded-none rounded-tl-2xl rounded-br-2xl bg-gradient-to-r hidden lg:inline-grid">
-                      <div className="stat flex flex-row justify-evenly w-min-fit p-2 px-5 w-72 self-center h-20">
+                  <div className="overflow-hidden">
+                    <div className="myStats stats stats-vertical shadow shadow-inner w-fit self-center absolute top-0 left-0 rounded-none rounded-tl-2xl rounded-br-2xl p-1 bg-gradient-to-r inline-grid lg:hidden">
+                      <div className="stat flex flex-col justify-evenly w-min-fit p-2 self-center">
                         {p.skills.map((src) => (
-                          <figure className="h-16 w-16">
-                            <img className="w-[50px]" src={src} alt="" />
+                          <figure className="h-12 w-12">
+                            <img className="w-[25px]" src={src} alt="" />
                           </figure>
                         ))}
                       </div>
                     </div>
+                    <div className="flex flex-row justify-end mt-5">
+                      <figure className={"w-[300px] relative right-[-60px]"}>
+                        <img
+                          className={
+                            (p.mockup === "iphone" ? "h-[200px]" : "") +
+                            (p.mockup === "ipad" ? "h-[210px]" : "")
+                          }
+                          src={p.src}
+                          alt="Album"
+                        />
+                      </figure>
+                    </div>
+                  </div>
 
+                  <div className="flex flex-col justify-center items-center mt-10 px-5">
                     <h2 className="card-title text-2xl leading-[3rem] truncate max-md:pt-[40px] max-sm:pt-[40px] text-[#f5f5f5]">
-                      {p.title}{" "}
-                      <span className="text-[0.9rem] italic">
-                        {p.span && `-${p.span}-`}
-                      </span>
+                      {p.title}
                     </h2>
-
-                    <p className="grow-0 text-base text-left text-[#f5f5f5]">
-                      {p.body}
+                    <p className="text-lg font-medium text-justify break-words max-md:pt-[40px] max-sm:pt-[40px] text-[#f5f5f5] overflow-hidden">
+                      {p.mini_body}
                     </p>
-                    <div className="card-actions justify-start pt-5 items-center h-[150px] overflow-hidden lg:h-auto">
+                  </div>
+                  <div className="overflow-hidden pb-5">
+                    <div className="card-actions justify-start pt-5 items-center  overflow-hidden lg:h-auto">
                       <a
                         role="button"
                         className={
@@ -273,31 +276,6 @@ export default function Works() {
                         </div>
                       )}
                     </div>
-                  </div>
-                  {/* right */}
-                  <div className="flex items-start lg:items-center lg:justify-center relative h-[400px] mb-[5px] overflow-hidden pt-[10px] lg:w-[700px] lg:pt-0 lg:h-full">
-                    <figure
-                      className={
-                        "right-[0px] lg:w-[700px] " +
-                        "absolute " +
-                        (p.mockup === "ipad" || p.mockup === "iphone"
-                          ? "lg:right-[-40px]"
-                          : "lg:right-[-180px]")
-                      }
-                    >
-                      {" "}
-                      <img
-                        className={
-                          "w-[250px] lg:w-[600px] " +
-                          (p.mockup === "iphone"
-                            ? "h-[200px] lg:h-[400px]"
-                            : "lg:h-[365px]") +
-                          (p.mockup === "ipad" ? "" : "")
-                        }
-                        src={p.src}
-                        alt="Album"
-                      />
-                    </figure>
                   </div>
                 </div>
               </div>
