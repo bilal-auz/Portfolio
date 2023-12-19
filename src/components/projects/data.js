@@ -1,5 +1,23 @@
 const projects = [
   {
+    tag: "systems",
+    src: ["assets/mockups/bugWatch.svg"],
+    title: "Bug Watch: Bug Tracker",
+    mini_body:
+      "Bug Watch is a Bug Tracker for your Github Repositories. Track your Bugs and Features using GitHub API.",
+    body: "Bug Watch is a Bug Tracker for your Github Repositories. Track your Bugs and Features in a single place using GitHub API. Bug watch is full stack project powered by Github API and is built using React, Express, NodeJS, MongoDB, and Tailwind CSS.",
+    link: "https://bugwatch.netlify.app",
+    skills: [
+      "assets/icons/nodejs.svg",
+      "assets/icons/express.svg",
+      "assets/icons/react.svg",
+      "assets/icons/tailwind.svg",
+      "assets/icons/mongodb.svg",
+    ],
+    span: "",
+    // date: "Mar 2023",
+  },
+  {
     src: ["assets/mockups/statify-v2.svg"],
     title: "Statify: Spotify Tracker",
     mini_body:
@@ -12,24 +30,8 @@ const projects = [
       "assets/icons/recharts.svg",
       "assets/icons/spotify-devs.svg",
     ],
-    span: "Inaccessible, pending Spotify approval",
+    span: "",
     // date: "Oct 2023",
-  },
-  {
-    tag: "systems",
-    src: ["assets/mockups/daSummary_laptop.svg"],
-    title: "DaSummary",
-    mini_body:
-      "Explore a dynamic mini web dashboard that combines data from various sources including Twitter, OpenWeather, and Spotify.",
-    body: "Explore a dynamic mini web dashboard that seamlessly combines data from various sources, including Twitter, OpenWeather, and Spotify, all in a single place. Developed using React and Tailwind, this web app showcases my frontend skills and ability to utilize the UI components libraries and demonstrate my proficiency in leveraging external APIs and integrating their data successfully.",
-    link: "https://github.com/bilal-auz/School_Students_Management_System--Dec-2020",
-    skills: [
-      "assets/icons/react.svg",
-      "assets/icons/tailwind.svg",
-      "assets/icons/mongodb.svg",
-    ],
-    span: "Still Under Development",
-    // date: "Mar 2023",
   },
   {
     tag: "BI",
